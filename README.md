@@ -2,7 +2,7 @@
 ![](https://github.com/alexrussellbrookes/PEPPERChart/blob/master/images/PEPPER_Logo.jpg)
 
 This implementation of the PEPPER app's dashboard relies on the [PEPPERChart](https://github.com/alexrussellbrookes/PEPPERChart) charting 
-library.
+library. See [here](https://javadoc.jitpack.io/com/github/alexrussellbrookes/PEPPERDashboard/v1.0/javadoc/) for the Javadoc.
 
 This code provides an architecture for the dynamic data visualizations used in the PEPPER application, which can be updated as new data 
 is generated. The visualization designs can also be easily modified with minimal disruption to the business logic of the app. 

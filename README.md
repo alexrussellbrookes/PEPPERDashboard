@@ -19,6 +19,11 @@ architecture. The module has been designed so that it may be easily integrated i
 2. The Android app itself is a test implementation of the dashboard module. To demonstrate how the implementation might be 
 carried out, I have created a test implementation with real, though anonymized, data. 
 
+A diagram of the relationship of the key classes is shown below:
+
+![](https://github.com/alexrussellbrookes/PEPPERDashboard/blob/master/images/PEPPERMVVM.jpg)
+
+In the code found here, the View and ViewModel are part of the **pepperdashboard** module. This module could be integrated into a version of the app 'as is'. In the main app code the DashboardDataRep mocks a real data repository provided by the business logic of the app, and the DashboardActivity mocks the Activity controlling the dashboard visualization.      
 
 This code has been created for the [PEPPER Project](http://www.pepper.eu.com/) which has received funding from the European Union’s 
 Horizon 2020 research and innovation programme under grant agreement 689810.
